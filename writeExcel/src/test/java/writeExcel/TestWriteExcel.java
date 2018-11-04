@@ -32,4 +32,9 @@ public class TestWriteExcel {
 	public void test003() {
 		assertEquals(1,3);
 	}
+	
+	@Test
+	public void test004() {
+		assertEquals(2,2);
+	}
 }
