@@ -159,7 +159,7 @@ public class OPExcel {
 	             * 删除原有数据，除了属性列
 	             */
 	            int rowNumber = sheet.getLastRowNum();    // 第一行从0开始算
-	            System.out.println("原始数据总行数，除属性列：" + rowNumber);
+	            System.out.println("原始数据总行数111，除属性列：" + rowNumber);
 	            for (int i = 1; i <= rowNumber; i++) {
 	                Row row = sheet.getRow(i);
 	                sheet.removeRow(row);
