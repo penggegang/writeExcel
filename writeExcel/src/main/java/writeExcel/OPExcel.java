@@ -52,7 +52,7 @@ public class OPExcel {
 	        	dataMap.put("Email", getEmail(8,12));
 	        	list.add(dataMap);
 	        }  
-	        writeExcel2(list,  "C:/Users/penggegang/Documents/writeExcel.xls");
+	        writeExcel3(list,  "C:/Users/penggegang/Documents/writeExcel.xls");
 	    }  
 	    
 	    public static int getNum(int start,int end) {  
